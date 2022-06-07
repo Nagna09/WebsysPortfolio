@@ -1,0 +1,209 @@
+*{box-sizing: border-box;}
+.row::after{
+	content: "";
+	clear: both;
+	display: table;  
+}
+.header{
+	overflow: hidden;
+	background-color: purple;
+	padding: 20px 10px;
+}
+.header a{
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 25px;
+	text-decoration: none;
+	font-size: 18px; 
+	border-radius: 15px;
+		
+}
+.header a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.header a.active{
+	background-color:black;
+	color: white;
+	border-radius: 15px;
+}
+.header-right{
+	float: right;
+}
+
+.button{
+	background-color: #F3BE40;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+.NoLine{
+text-decoration: none;
+color: black;
+}
+@media only screen and (min-width: 769px){
+    /* For desktop: */
+    
+      .col-1 {width: 8.33%;}
+      .col-2 {width: 16.66%;}
+      .col-3 {width: 25%;}
+      .col-4 {width: 33.33%;}
+      .col-5 {width: 41.66%;}
+      .col-6 {width: 50%;}
+      .col-7 {width: 58.33%;}
+      .col-8 {width: 66.66%;}
+      .col-9 {width: 75%;}
+      .col-10 {width: 83.33%;}
+      .col-11 {width: 91.66%;}
+      .col-12 {width: 100%;}
+      
+  body{
+      background:url("Photo/Background/BlackBricks.jpg");
+      margin: 0;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size:cover; 
+    } 
+  html{
+      font-family:time new roman;
+      font-weight: bold;
+      height: 100%;
+
+  }	
+  p{
+      text-align: center;
+      font-family: Time new roman;
+      color: white;
+      font-weight: bold;
+      font-size: 12px;
+  }
+  .text{
+      text-align: center;
+      font-size: 24px;
+      font-family: Time new roman;
+      font-weight: bold;
+      color:white;
+  }
+  
+  h1{
+      text-align: center;
+      font-size: 24px;
+      font-family: Time new roman;
+      font-weight: bold;
+  }
+  .header {
+      overflow: hidden;
+      background:url("Photo/Background/PurpleBricks.jpg");
+      padding: 20px 10px;
+  }
+  .header a{
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 18px; 
+      line-height: 25px;
+      border-radius: 4px;
+  }
+  .header a:hover {
+      background-color: #ddd;
+      color: black;
+  }
+  .header a.active {
+      background-color:purple;
+      color: white;
+      border-radius: 15px;
+  }
+  .header-right {
+      float: right;
+  }
+  .button{
+      background-color: #F3BE40;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+  }
+  .profile{
+      background: url("Photo/Profile/Formal\ Profile.png");  
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 50%;
+      height: 164px;
+      width: 164px;
+      float: center;
+  }
+  .container{
+      border-radius: 15px;
+      padding: -20px;
+  }
+  input[type=submit] {
+      background:url("Photo/Background/BlackBricks.jpg");  
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: white;
+      padding-right: 12px;
+      padding-left: 12px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      border: solid;
+      border-radius: 15px;
+      font-weight: bold;	
+  }
+  .footer{
+      text-align: center;
+      padding: 3px;
+      background:url("Photo/Background/PurpleBricks.jpg");
+  }
+      
+  .SB1{
+      background:url("Photo/Background/PurpleBricks.jpg");  
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;	
+      margin-bottom: 25px;
+      margin-top: 125px;
+      margin-right: 0;
+      margin-left: 0;	
+      padding-top: 25px;
+      padding-bottom: 25px;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: black;
+      text-align: center;
+      font-size: 14px;
+  }}
+
+  [class*="col-"]{
+    float: left;
+    padding: 25px;
+}
+.SB2{
+	background:url("Photo/Background/PurpleBricks.jpg");
+	height:auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 10px; 
+	margin-top: 10px; 
+	margin-right: 10px;  
+	margin-left: 10px;
+	color: black; 
+	text-align: center;
+	font-size: 14px;
+	border-radius: 15px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-style: solid;
+}
+h2{color: white;}
+
+img{width:100px;height:100px;}
